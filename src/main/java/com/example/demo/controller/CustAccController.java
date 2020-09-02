@@ -30,7 +30,7 @@ public class CustAccController {
 	
 	@GetMapping("/")
 	public String home() {
-		return "Hello World";
+		return "Hello Customer";
 	}
 	
 	@GetMapping("/Customer/{id}")

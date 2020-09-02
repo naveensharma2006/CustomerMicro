@@ -8,7 +8,7 @@ import com.example.demo.model.Customer;
 @Repository
 public interface CustAccRepo extends JpaRepository<Customer, Integer>{
 	
-	Customer findByCustName(String custName);
+	Customer findByFirstName(String custName);
 	
 	
 

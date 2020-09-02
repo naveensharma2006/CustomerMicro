@@ -1,8 +1,6 @@
 package com.example.demo.service;
 
-import java.util.Iterator;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,7 +20,7 @@ public class CustAccService {
 	}
 
 	public Customer findByName(String CustName) {
-		return repo.findByCustName(CustName);
+		return repo.findByFirstName(CustName);
 	}
 
 	public Customer findById(int CustId) {
